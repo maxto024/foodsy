@@ -1,5 +1,5 @@
-import './App/Config/ReactotronConfig'
-import { AppRegistry } from 'react-native'
-import App from './App/Containers/App'
+import './App/Config'
+import { registerScreensAndStartApp } from './App/Navigation/Layout'
 
-AppRegistry.registerComponent('Foodsy', () => App)
+// this registers the screens and starts the react-native-navigation process
+registerScreensAndStartApp()
