@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
 import { View, Text, Image, TouchableOpacity, ImageBackground } from 'react-native'
 import { Icon } from 'native-base'
-
+import PropTypes from 'prop-types';
 import styles from './Styles/SliderEntryStyle'
 import { Images } from '../Themes'
+
 export default class SliderEntry extends Component {
+
+  static propTypes = {
+    data: PropTypes.object.isRequired,
+    even: PropTypes.bool,
+};
   render () {
     const {
 			data: { name, priceMax, priceMin, featured, status, location, closeAt, phone, distance, walkTime, rating, love, image },

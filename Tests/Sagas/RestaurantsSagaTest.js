@@ -6,12 +6,6 @@ import { getRestaurants } from '../../App/Sagas/RestaurantsSagas';
 
 const stepper = (fn) => (mock) => fn.next(mock).value
 
-test('first calls API', () => {
-  const step = stepper(getRestaurants(FixtureAPI, {}))
-  // first yield is API
-  expect(step()).toEqual(call(FixtureAPI.getRestaurants, {}))
-})
-
 test('success path', () => {
   const response = FixtureAPI.getRestaurants({})
   const step = stepper(getRestaurants(FixtureAPI, {}))
@@ -21,7 +15,7 @@ test('success path', () => {
   const stepResponse = step(response)
   // Get the avatar Url from the response
 const restaurants = stepResponse.data
-  expect(stepResponse).toEqual(put(RestaurantsActions.restaurantsSuccess(restaurants)))
+  expect(stepResponse).toEqual(put(RestaurantsActions.restaurantsSuccess(response.data)))
 })
 
 test('failure path', () => {

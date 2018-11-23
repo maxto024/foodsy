@@ -9,7 +9,6 @@ export function * getRestaurants (api, action) {
 
   if (response.ok) {
     // do data conversion here if needed
-    console.tron.log('json parse', response.data)
     yield put(RestaurantsActions.restaurantsSuccess(response.data))
   } else {
     yield put(RestaurantsActions.restaurantsFailure())
