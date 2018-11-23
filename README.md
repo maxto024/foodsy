@@ -3,6 +3,10 @@
 
 * Food Order App 
 
+## screen shot and gif 
+![alt gif](https://drive.google.com/file/d/1HGgy649IP_bqK-2nBxUKqRNT7D0LE0OO/view?usp=sharing)
+
+
 ## :arrow_up: How to Setup
 
 **Step 1:** git clone this repo:

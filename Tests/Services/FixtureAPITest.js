@@ -12,11 +12,10 @@ test('All fixtures map to actual API', () => {
   expect(R.equals(fixtureKeys, intersection)).toBe(true)
 })
 
-
 test('FixtureAPI getRestaurants returns the right file for Restaurants as default', () => {
   const expectedFile = require('../../App/Fixtures/restaurants')
 
-  expect(FixtureAPI.getRestaurants({'whatever':'whatever'})).toEqual({
+  expect(FixtureAPI.getRestaurants({'whatever': 'whatever'})).toEqual({
     ok: true,
     data: expectedFile
   })

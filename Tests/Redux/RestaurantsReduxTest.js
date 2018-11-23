@@ -1,10 +1,9 @@
 import Actions, { reducer, INITIAL_STATE } from '../../App/Redux/RestaurantsRedux'
 
 import FixtureAPI from '../../App/Services/FixtureApi'
-const response = FixtureAPI.getRestaurants(); 
-const data = response.data.restaurants;
+const response = FixtureAPI.getRestaurants()
+const data = response.data.restaurants
 test('request', () => {
-
   const state = reducer(INITIAL_STATE, Actions.restaurantsRequest({}))
 
   expect(state.fetching).toBe(true)
@@ -12,7 +11,6 @@ test('request', () => {
 })
 
 test('success', () => {
-
   const state = reducer(INITIAL_STATE, Actions.restaurantsSuccess(data))
 
   expect(state.fetching).toBe(false)
