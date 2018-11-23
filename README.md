@@ -4,7 +4,7 @@
 * Food Order App 
 
 ## screen shot and gif 
-<a href="https://www.dropbox.com/s/fennirl6p5s571u/foodly-min.gif"><img src="https://www.dropbox.com/s/fennirl6p5s571u/foodly-min.gif" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+<img src="./github/screenshot.png" style="width: 500px; max-width: 100%; height: auto"/>
 
 
 ## :arrow_up: How to Setup
