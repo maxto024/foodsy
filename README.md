@@ -4,7 +4,7 @@
 * Food Order App 
 
 ## screen shot and gif 
-![alt gif](https://drive.google.com/file/d/1HGgy649IP_bqK-2nBxUKqRNT7D0LE0OO/view?usp=sharing)
+<a href="https://drive.google.com/file/d/1HGgy649IP_bqK-2nBxUKqRNT7D0LE0OO/view?usp=sharing"><img src="https://drive.google.com/file/d/1HGgy649IP_bqK-2nBxUKqRNT7D0LE0OO/view?usp=sharing" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
 
 ## :arrow_up: How to Setup
