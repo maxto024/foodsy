@@ -4,7 +4,7 @@
 * Food Order App 
 
 ## screen shot and gif 
-<img src="./github/screenshot.png" style="width: 500px; max-width: 100%; height: auto"/>
+<img src="./github/screenshot.png" style="width: 40px; max-width: 100%; height: 40px"/>
 
 
 ## :arrow_up: How to Setup
