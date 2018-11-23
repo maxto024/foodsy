@@ -7,8 +7,7 @@ import ReduxPersist from '../Config/ReduxPersist'
 /* ------------- Assemble The Reducers ------------- */
 export const reducers = combineReducers({
 
-  github: require('./GithubRedux').reducer,
-  search: require('./SearchRedux').reducer
+  restaurants: require('./RestaurantsRedux').reducer
 })
 
 export default () => {

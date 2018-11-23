@@ -4,8 +4,6 @@ import ReduxPersist from '../Config/ReduxPersist'
 import Config from '../Config/DebugConfig'
 import createSagaMiddleware from 'redux-saga'
 
-
-
 // creates the store
 export default (rootReducer, rootSaga) => {
   /* ------------- Redux Configuration ------------- */
@@ -14,7 +12,6 @@ export default (rootReducer, rootSaga) => {
   const enhancers = []
 
   /* ------------- Navigation Middleware ------------ */
-
 
   /* ------------- Analytics Middleware ------------- */
 

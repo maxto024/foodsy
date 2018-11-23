@@ -5,14 +5,12 @@ import DebugConfig from '../Config/DebugConfig'
 
 /* ------------- Types ------------- */
 
+import { RestaurantsTypes } from '../Redux/RestaurantsRedux'
 import { StartupTypes } from '../Redux/StartupRedux'
-import { GithubTypes } from '../Redux/GithubRedux'
-
 /* ------------- Sagas ------------- */
 
+import { getRestaurants } from './RestaurantsSagas'
 import { startup } from './StartupSagas'
-import { getUserAvatar } from './GithubSagas'
-
 /* ------------- API ------------- */
 
 // The API we use is only used from Sagas, so we create it here and pass along
@@ -27,6 +25,6 @@ export default function * root () {
     takeLatest(StartupTypes.STARTUP, startup),
 
     // some sagas receive extra parameters in addition to an action
-    takeLatest(GithubTypes.USER_REQUEST, getUserAvatar, api)
+    takeLatest(RestaurantsTypes.RESTAURANTS_REQUEST, getRestaurants, api)
   ])
 }
