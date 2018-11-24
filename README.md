@@ -39,7 +39,8 @@
   yellowBox: __DEV__,
   reduxLogging: __DEV__,
   includeExamples: __DEV__,
-  useReactotron: __DEV__ }  ``` 
+  useReactotron: __DEV__ }  
+  ``` 
  * and then cofigure your custom url and call in /Services/Api.js
 
  * I use React Native Navigation v2 wix for navigation  support 
