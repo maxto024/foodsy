@@ -24,8 +24,31 @@
 
 <img src="./github/realDevice.png" width="500" height="790"/>
               
-               * Brief intro of the restaurant type
-## Part II: Minimum Requirements (Done )
+* Brief intro of the restaurant type
+## Part III: Additional Requirements (Done)
+ * I use Redux State Management for manging state of the application
+ * Redux Saga for MiddleWare and async function like call backend 
+ * I use mocked Custome Api also my  Application supports http call i use api sauce a
+ * for Mock api support i use Json and store folder called Fixtures and write service that simulate to call and get json
+ * saga will call same like it call api to the mock and get data and store to redux
+ * redux I use redux persist to store data in memory asyncStorege
+ * To change from Mock  to real api all you need to do is just change /config/DebugConfig.js useFixture to false
+ ```export default {
+  useFixtures: true,
+  ezLogin: false,
+  yellowBox: __DEV__,
+  reduxLogging: __DEV__,
+  includeExamples: __DEV__,
+  useReactotron: __DEV__ }  ``` 
+ * and then cofigure your custom url and call in /Services/Api.js
+
+ * I use React Native Navigation v2 wix for navigation  support 
+ * ALL my Code is easy to understand components is for reusable code containers is for screen i add readme.me each folder
+ * all image are in Images
+ * all theme  image require and colors is in /Themes/
+ * all redux is in /Redux/
+ * all saga /Saga/
+  ## Part III: Additional Requirements (Done)
 
 
 ## :arrow_forward: How to Run App
