@@ -15,6 +15,17 @@
 
 **Step 3:** Install the Application with `yarn` or `npm i`
 
+## Features
+##  Part II: Minimum Requirements (Done )
+               * The restaurant name
+               * Picture from the restaurant
+               * Phone number to call on click   > But it only work on Real Device  Check screen shot on real deveice
+
+                    <img src="./github/realDevice.png" width="500" height="790"/>
+              
+               * Brief intro of the restaurant type
+## Part II: Minimum Requirements (Done )
+
 
 ## :arrow_forward: How to Run App
 
