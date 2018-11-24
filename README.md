@@ -19,7 +19,8 @@
 ##  Part II: Minimum Requirements (Done )
  * The restaurant name
  * Picture from the restaurant
- * Phone number to call on click   > But it only work on Real Device  Check screen shot on real deveice
+ * Phone number to call on click 
+   > But it only work on Real Device  Check screen shot on real deveice
 
 <img src="./github/realDevice.png" width="500" height="790"/>
               
