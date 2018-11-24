@@ -49,7 +49,15 @@
  * all theme  image require and colors is in /Themes/
  * all redux is in /Redux/
  * all saga /Saga/
-  ## Part III: Additional Requirements (Done)
+
+## Part III: Additional Tests (Done)
+ * All my code is linted standar
+ * I write test for all function in redux
+ * wrote test for all funciton in saga
+ * all test passed
+ * test i use enzym 
+ 
+
 
 
 ## :arrow_forward: How to Run App
