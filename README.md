@@ -3,7 +3,7 @@
 
 * Food Order App 
 
-##Ios   | ##Android
+Ios   | Android
 ------------- | -------------
 <img src="./github/ios.png" width="300" height="700"/> |<img src="./github/android.png" width="300" height="700"/>
 
