@@ -4,8 +4,8 @@
 * Food Order App 
 
 ## <<----screen shot and gif --->>
-<img src="./github/ios.png" width="500" height="790"/>
-<img src="./github/android.png" width="500" height="790"/>
+<img src="./github/ios.png" width="300" height="700"/>
+<img src="./github/android.png" width="300" height="700"/>
 
 
 ## :arrow_up: How to Setup
