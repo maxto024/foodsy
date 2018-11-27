@@ -5,7 +5,7 @@
 
 Ios   | Android
 ------------- | -------------
-<img src="./github/ios.png" width="400" height="700"/> |<img src="./github/android.png" width="400" height="700"/>
+<img src="./github/ios.png" width="500" height="700"/> |<img src="./github/android.png" width="500" height="700"/>
 
 ## :arrow_up: How to Setup
 
