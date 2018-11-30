@@ -10,7 +10,7 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 #import <ReactNativeNavigation/ReactNativeNavigation.h>
-
+#import "TestFairy.h"
 @implementation AppDelegate
 
 
@@ -26,6 +26,7 @@
   
   [ReactNativeNavigation bootstrap:jsCodeLocation launchOptions:launchOptions];
   
+  [TestFairy begin:@"74426548684350c476f7d4ee203989f98dd69097"];
   return YES;
 }
 @end

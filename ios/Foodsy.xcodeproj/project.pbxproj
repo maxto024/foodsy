@@ -43,6 +43,13 @@
 		4C06747B4E664DCAACD6F223 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 322C55CBDCBC42778286FD22 /* AntDesign.ttf */; };
 		4C2BCD46247D4A1E8B4BED7C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F028C4A8969045ACA38840DE /* Ionicons.ttf */; };
 		4FAEFA6DEB7249009B0D3BEE /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA5C39F96414FC39961D9B3 /* libRNVectorIcons.a */; };
+		53F8DA6821B16E3A00870EE1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8DA6721B16E3A00870EE1 /* CoreMedia.framework */; };
+		53F8DA6A21B16E4900870EE1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8DA6921B16E4900870EE1 /* CoreMotion.framework */; };
+		53F8DA6C21B16E5600870EE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8DA6B21B16E5600870EE1 /* AVFoundation.framework */; };
+		53F8DA6E21B16E6100870EE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8DA6D21B16E6100870EE1 /* SystemConfiguration.framework */; };
+		53F8DA7021B16E6D00870EE1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8DA6F21B16E6D00870EE1 /* OpenGLES.framework */; };
+		53F8DA7421B16FDD00870EE1 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8DA7121B16FDC00870EE1 /* libTestFairy.a */; };
+		53F8DA7521B16FDD00870EE1 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 53F8DA7221B16FDD00870EE1 /* upload-dsym.sh */; };
 		57D4A10C09C94567AB264E7E /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FB59B922CD344F2B60949CD /* MaterialIcons.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		63034FF421AE4F14B4A7578C /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 712B10B97F1E4F21AE0C9A4C /* FontAwesome5_Brands.ttf */; };
@@ -418,6 +425,14 @@
 		49DCEA77FCD54A3398B007AE /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		4D3065FF82814B9AAEDD7C92 /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
 		4DA805A9F3FF4C848EBD82F8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		53F8DA6721B16E3A00870EE1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		53F8DA6921B16E4900870EE1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		53F8DA6B21B16E5600870EE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		53F8DA6D21B16E6100870EE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53F8DA6F21B16E6D00870EE1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		53F8DA7121B16FDC00870EE1 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFairy.a; path = "TestFairySDK-1.18.1/libTestFairy.a"; sourceTree = "<group>"; };
+		53F8DA7221B16FDD00870EE1 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "upload-dsym.sh"; path = "TestFairySDK-1.18.1/upload-dsym.sh"; sourceTree = "<group>"; };
+		53F8DA7321B16FDD00870EE1 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFairy.h; path = "TestFairySDK-1.18.1/TestFairy.h"; sourceTree = "<group>"; };
 		58391627760F47408219406A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		5C9F1CF7DE4E4ED38A769E04 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -457,6 +472,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F8DA7021B16E6D00870EE1 /* OpenGLES.framework in Frameworks */,
+				53F8DA6E21B16E6100870EE1 /* SystemConfiguration.framework in Frameworks */,
+				53F8DA6C21B16E5600870EE1 /* AVFoundation.framework in Frameworks */,
+				53F8DA6A21B16E4900870EE1 /* CoreMotion.framework in Frameworks */,
+				53F8DA6821B16E3A00870EE1 /* CoreMedia.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -471,6 +491,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				4FAEFA6DEB7249009B0D3BEE /* libRNVectorIcons.a in Frameworks */,
+				53F8DA7421B16FDD00870EE1 /* libTestFairy.a in Frameworks */,
 				F60491C8DF1F4BC080683B1B /* libReactNativeConfig.a in Frameworks */,
 				DD184C2D0466457880D958AA /* libReactNativeNavigation.a in Frameworks */,
 				3D84B435AE184CB8AD3EBA8A /* ReactNativeNavigationTests.xctest in Frameworks */,
@@ -586,6 +607,9 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				53F8DA7121B16FDC00870EE1 /* libTestFairy.a */,
+				53F8DA7321B16FDD00870EE1 /* TestFairy.h */,
+				53F8DA7221B16FDD00870EE1 /* upload-dsym.sh */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -657,6 +681,11 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53F8DA6F21B16E6D00870EE1 /* OpenGLES.framework */,
+				53F8DA6D21B16E6100870EE1 /* SystemConfiguration.framework */,
+				53F8DA6B21B16E5600870EE1 /* AVFoundation.framework */,
+				53F8DA6921B16E4900870EE1 /* CoreMotion.framework */,
+				53F8DA6721B16E3A00870EE1 /* CoreMedia.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -1294,6 +1323,7 @@
 				9980AE4ADB8D45989AA89567 /* FontAwesome.ttf in Resources */,
 				1228BBEE7615428DBE13D73B /* Foundation.ttf in Resources */,
 				4C2BCD46247D4A1E8B4BED7C /* Ionicons.ttf in Resources */,
+				53F8DA7521B16FDD00870EE1 /* upload-dsym.sh in Resources */,
 				2BE7A12885D44B7CA7649853 /* MaterialCommunityIcons.ttf in Resources */,
 				57D4A10C09C94567AB264E7E /* MaterialIcons.ttf in Resources */,
 				4BCB2D31956744769C47E349 /* Octicons.ttf in Resources */,
@@ -1501,6 +1531,10 @@
 				);
 				INFOPLIST_FILE = Foodsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFairySDK-1.18.1",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1527,6 +1561,10 @@
 				);
 				INFOPLIST_FILE = Foodsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFairySDK-1.18.1",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
