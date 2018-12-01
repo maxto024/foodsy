@@ -1540,7 +1540,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.melmi.foodsy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenges.melmi.foodsy;
 				PRODUCT_NAME = Foodsy;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1570,7 +1570,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.melmi.foodsy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenges.melmi.foodsy;
 				PRODUCT_NAME = Foodsy;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
